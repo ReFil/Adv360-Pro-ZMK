@@ -4,6 +4,8 @@ Here's all notable changes and commits to both the configuration repo and the ba
 Many thanks to all those who have submitted issues and pull requests to make this firmware better!
 ## Config repo
 
+X/X/2024 - Update base ZMK, change KConfig attributes to support, Enable experimental BLE features for improved stability [#XXX]()
+
 12/27/2023 - Change how the characters are used in the versioning script for improved MacOS experience [#303](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/303)
 
 12/15/2022 - Update keymap.json to reflect new versioning macro [#300](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/pull/300)
@@ -88,15 +90,28 @@ Many thanks to all those who have submitted issues and pull requests to make thi
 
 ## Base ZMK
 
-There have beeen 4 branches of ZMK used for the 360 Pro so far. Beta branches are not changelogged as they are subject to frequent changes and tweaks.
+There have beeen 5 branches of ZMK used for the 360 Pro so far. Beta branches are not changelogged as they are subject to frequent changes and tweaks.
 
 | Branch | Date From | Date To | Config Branch |
 | -------- | ------- |-------|-----|
 | [adv360-beta](https://github.com/ReFil/zmk/tree/adv360-beta)   | 3/1/2022 | 9/17/2022 | V1.0 (since deleted) |
 | [adv360-z3](https://github.com/ReFil/zmk/tree/adv360-z3) | 9/17/2022 | 7/6/2023 | V2.0 (since deleted) |
 | [adv360-z3.2](https://github.com/ReFil/zmk/tree/adv360-z3.2) | 7/6/2023 | 20/10/2023 | [V3.0](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/tree/V3.0) (Up to commit 82494e7) |
-| [adv360-z3.2-2](https://github.com/ReFil/zmk/tree/adv360-z3.2-2) | 20/10/2023 | To date | [V3.0](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/tree/V3.0) (current) |
+| [adv360-z3.2-2](https://github.com/ReFil/zmk/tree/adv360-z3.2-2) | 20/10/2023 | X/X/2024 | [V3.0](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/tree/V3.0) (Up to commit XXXXXXX) |
+| [adv360-z3.2-3](https://github.com/ReFil/zmk/tree/adv360-z3.2-3) | X/X/2024 | To date | [V3.0](https://github.com/KinesisCorporation/Adv360-Pro-ZMK/tree/V3.0) (current) |
 
+
+### adv360-z3.2-3
+
+12/17/2023 - Add KConfig line to ensure compatibility with previous NKRO extended report is maintained
+
+12/17/2023 - Fix conflicts with upstream HID indicators code for split communication
+
+12/17/2023 - Add defines for HID indicator LEDs to maintain compatibility with lighting code
+
+12/17/2023 - Merge latest upstream ZMK (Commit 78fa1e77)
+
+Note: Several features that used to be custom to this branch (BT battery reporting disable, Extended NKRO, HID Indicators) are now upstream
 
 ### adv360-z3.2-2
 
