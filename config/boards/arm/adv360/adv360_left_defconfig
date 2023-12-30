@@ -60,6 +60,7 @@ CONFIG_BT_BAS=n #Set this to y to enable BLE battery reporting
 
 #Misc configuration
 CONFIG_ZMK_USB=y
+CONFIG_ZMK_HID_INDICATORS=y
 CONFIG_USB_DEVICE_VID=0x29EA
 CONFIG_USB_DEVICE_PID=0x0362
 CONFIG_USB_DEVICE_MANUFACTURER="Kinesis Corporation"
