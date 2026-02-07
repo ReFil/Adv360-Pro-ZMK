@@ -242,13 +242,5 @@
             display-name = "Custom Macro 30";
             bindings = <&pos_trig 1932 &pos_trig 1933 &pos_trig 1934 &pos_trig 1935 &pos_trig 1936 &pos_trig 1937 &pos_trig 1938 &pos_trig 1939 &pos_trig 1940 &pos_trig 1941 &pos_trig 1942 &pos_trig 1943 &pos_trig 1944 &pos_trig 1945 &pos_trig 1946 &pos_trig 1947 &pos_trig 1948 &pos_trig 1949 &pos_trig 1950 &pos_trig 1951 &pos_trig 1952 &pos_trig 1953 &pos_trig 1954 &pos_trig 1955 &pos_trig 1956 &pos_trig 1957 &pos_trig 1958 &pos_trig 1959 &pos_trig 1960 &pos_trig 1961 &pos_trig 1962 &pos_trig 1963 &pos_trig 1964 &pos_trig 1965 &pos_trig 1966 &pos_trig 1967 &pos_trig 1968 &pos_trig 1969 &pos_trig 1970 &pos_trig 1971 &pos_trig 1972 &pos_trig 1973 &pos_trig 1974 &pos_trig 1975 &pos_trig 1976 &pos_trig 1977 &pos_trig 1978 &pos_trig 1979 &pos_trig 1980 &pos_trig 1981 &pos_trig 1982 &pos_trig 1983 &pos_trig 1984 &pos_trig 1985 &pos_trig 1986 &pos_trig 1987 &pos_trig 1988 &pos_trig 1989 &pos_trig 1990 &pos_trig 1991 &pos_trig 1992 &pos_trig 1993 &pos_trig 1994 &pos_trig 1995 >;
         };
-        Clique_31: Clique_31{
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <1>;
-            wait-ms = <1>;
-            display-name = "Custom Macro 31";
-            bindings = <&pos_trig 1996 &pos_trig 1997 &pos_trig 1998 &pos_trig 1999 &pos_trig 2000 &pos_trig 2001 &pos_trig 2002 &pos_trig 2003 &pos_trig 2004 &pos_trig 2005 &pos_trig 2006 &pos_trig 2007 &pos_trig 2008 &pos_trig 2009 &pos_trig 2010 &pos_trig 2011 &pos_trig 2012 &pos_trig 2013 &pos_trig 2014 &pos_trig 2015 &pos_trig 2016 &pos_trig 2017 &pos_trig 2018 &pos_trig 2019 &pos_trig 2020 &pos_trig 2021 &pos_trig 2022 &pos_trig 2023 &pos_trig 2024 &pos_trig 2025 &pos_trig 2026 &pos_trig 2027 &pos_trig 2028 &pos_trig 2029 &pos_trig 2030 &pos_trig 2031 &pos_trig 2032 &pos_trig 2033 &pos_trig 2034 &pos_trig 2035 &pos_trig 2036 &pos_trig 2037 &pos_trig 2038 &pos_trig 2039 &pos_trig 2040 &pos_trig 2041 &pos_trig 2042 &pos_trig 2043 &pos_trig 2044 &pos_trig 2045 &pos_trig 2046 &pos_trig 2047 &pos_trig 2048 &pos_trig 2049 &pos_trig 2050 &pos_trig 2051 &pos_trig 2052 &pos_trig 2053 &pos_trig 2054 &pos_trig 2055 &pos_trig 2056 &pos_trig 2057 &pos_trig 2058 &pos_trig 2059 >;
-        };
     };
 };
