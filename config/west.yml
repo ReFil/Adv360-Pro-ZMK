@@ -9,5 +9,8 @@ manifest:
       remote: refil
       revision: adv360-z3.5-2
       import: app/west.yml
+    - name: position-trigger
+      url: https://github.com/ReFil/refil-zmk-behaviour-modules
+      revision: key-position-trigger
   self:
     path: config
