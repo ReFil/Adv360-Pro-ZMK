@@ -35,8 +35,8 @@
 
     matrix_transform0: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <20>;
-        rows = <5>;
+        columns = <64>;
+        rows = <69>;
 
 
                     map = <
