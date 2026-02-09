@@ -162,37 +162,5 @@
             display-name = "Custom Macro 20";
             bindings = <&pos_trig 1292 &pos_trig 1293 &pos_trig 1294 &pos_trig 1295 &pos_trig 1296 &pos_trig 1297 &pos_trig 1298 &pos_trig 1299 &pos_trig 1300 &pos_trig 1301 &pos_trig 1302 &pos_trig 1303 &pos_trig 1304 &pos_trig 1305 &pos_trig 1306 &pos_trig 1307 &pos_trig 1308 &pos_trig 1309 &pos_trig 1310 &pos_trig 1311 &pos_trig 1312 &pos_trig 1313 &pos_trig 1314 &pos_trig 1315 &pos_trig 1316 &pos_trig 1317 &pos_trig 1318 &pos_trig 1319 &pos_trig 1320 &pos_trig 1321 &pos_trig 1322 &pos_trig 1323 &pos_trig 1324 &pos_trig 1325 &pos_trig 1326 &pos_trig 1327 &pos_trig 1328 &pos_trig 1329 &pos_trig 1330 &pos_trig 1331 &pos_trig 1332 &pos_trig 1333 &pos_trig 1334 &pos_trig 1335 &pos_trig 1336 &pos_trig 1337 &pos_trig 1338 &pos_trig 1339 &pos_trig 1340 &pos_trig 1341 &pos_trig 1342 &pos_trig 1343 &pos_trig 1344 &pos_trig 1345 &pos_trig 1346 &pos_trig 1347 &pos_trig 1348 &pos_trig 1349 &pos_trig 1350 &pos_trig 1351 &pos_trig 1352 &pos_trig 1353 &pos_trig 1354 &pos_trig 1355 >;
         };
-        Clique_21: Clique_21{
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <1>;
-            wait-ms = <1>;
-            display-name = "Custom Macro 21";
-            bindings = <&pos_trig 1356 &pos_trig 1357 &pos_trig 1358 &pos_trig 1359 &pos_trig 1360 &pos_trig 1361 &pos_trig 1362 &pos_trig 1363 &pos_trig 1364 &pos_trig 1365 &pos_trig 1366 &pos_trig 1367 &pos_trig 1368 &pos_trig 1369 &pos_trig 1370 &pos_trig 1371 &pos_trig 1372 &pos_trig 1373 &pos_trig 1374 &pos_trig 1375 &pos_trig 1376 &pos_trig 1377 &pos_trig 1378 &pos_trig 1379 &pos_trig 1380 &pos_trig 1381 &pos_trig 1382 &pos_trig 1383 &pos_trig 1384 &pos_trig 1385 &pos_trig 1386 &pos_trig 1387 &pos_trig 1388 &pos_trig 1389 &pos_trig 1390 &pos_trig 1391 &pos_trig 1392 &pos_trig 1393 &pos_trig 1394 &pos_trig 1395 &pos_trig 1396 &pos_trig 1397 &pos_trig 1398 &pos_trig 1399 &pos_trig 1400 &pos_trig 1401 &pos_trig 1402 &pos_trig 1403 &pos_trig 1404 &pos_trig 1405 &pos_trig 1406 &pos_trig 1407 &pos_trig 1408 &pos_trig 1409 &pos_trig 1410 &pos_trig 1411 &pos_trig 1412 &pos_trig 1413 &pos_trig 1414 &pos_trig 1415 &pos_trig 1416 &pos_trig 1417 &pos_trig 1418 &pos_trig 1419 >;
-        };
-        Clique_22: Clique_22{
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <1>;
-            wait-ms = <1>;
-            display-name = "Custom Macro 22";
-            bindings = <&pos_trig 1420 &pos_trig 1421 &pos_trig 1422 &pos_trig 1423 &pos_trig 1424 &pos_trig 1425 &pos_trig 1426 &pos_trig 1427 &pos_trig 1428 &pos_trig 1429 &pos_trig 1430 &pos_trig 1431 &pos_trig 1432 &pos_trig 1433 &pos_trig 1434 &pos_trig 1435 &pos_trig 1436 &pos_trig 1437 &pos_trig 1438 &pos_trig 1439 &pos_trig 1440 &pos_trig 1441 &pos_trig 1442 &pos_trig 1443 &pos_trig 1444 &pos_trig 1445 &pos_trig 1446 &pos_trig 1447 &pos_trig 1448 &pos_trig 1449 &pos_trig 1450 &pos_trig 1451 &pos_trig 1452 &pos_trig 1453 &pos_trig 1454 &pos_trig 1455 &pos_trig 1456 &pos_trig 1457 &pos_trig 1458 &pos_trig 1459 &pos_trig 1460 &pos_trig 1461 &pos_trig 1462 &pos_trig 1463 &pos_trig 1464 &pos_trig 1465 &pos_trig 1466 &pos_trig 1467 &pos_trig 1468 &pos_trig 1469 &pos_trig 1470 &pos_trig 1471 &pos_trig 1472 &pos_trig 1473 &pos_trig 1474 &pos_trig 1475 &pos_trig 1476 &pos_trig 1477 &pos_trig 1478 &pos_trig 1479 &pos_trig 1480 &pos_trig 1481 &pos_trig 1482 &pos_trig 1483 >;
-        };
-        Clique_23: Clique_23{
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <1>;
-            wait-ms = <1>;
-            display-name = "Custom Macro 23";
-            bindings = <&pos_trig 1484 &pos_trig 1485 &pos_trig 1486 &pos_trig 1487 &pos_trig 1488 &pos_trig 1489 &pos_trig 1490 &pos_trig 1491 &pos_trig 1492 &pos_trig 1493 &pos_trig 1494 &pos_trig 1495 &pos_trig 1496 &pos_trig 1497 &pos_trig 1498 &pos_trig 1499 &pos_trig 1500 &pos_trig 1501 &pos_trig 1502 &pos_trig 1503 &pos_trig 1504 &pos_trig 1505 &pos_trig 1506 &pos_trig 1507 &pos_trig 1508 &pos_trig 1509 &pos_trig 1510 &pos_trig 1511 &pos_trig 1512 &pos_trig 1513 &pos_trig 1514 &pos_trig 1515 &pos_trig 1516 &pos_trig 1517 &pos_trig 1518 &pos_trig 1519 &pos_trig 1520 &pos_trig 1521 &pos_trig 1522 &pos_trig 1523 &pos_trig 1524 &pos_trig 1525 &pos_trig 1526 &pos_trig 1527 &pos_trig 1528 &pos_trig 1529 &pos_trig 1530 &pos_trig 1531 &pos_trig 1532 &pos_trig 1533 &pos_trig 1534 &pos_trig 1535 &pos_trig 1536 &pos_trig 1537 &pos_trig 1538 &pos_trig 1539 &pos_trig 1540 &pos_trig 1541 &pos_trig 1542 &pos_trig 1543 &pos_trig 1544 &pos_trig 1545 &pos_trig 1546 &pos_trig 1547 >;
-        };
-        Clique_24: Clique_24{
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            tap-ms = <1>;
-            wait-ms = <1>;
-            display-name = "Custom Macro 24";
-            bindings = <&pos_trig 1548 &pos_trig 1549 &pos_trig 1550 &pos_trig 1551 &pos_trig 1552 &pos_trig 1553 &pos_trig 1554 &pos_trig 1555 &pos_trig 1556 &pos_trig 1557 &pos_trig 1558 &pos_trig 1559 &pos_trig 1560 &pos_trig 1561 &pos_trig 1562 &pos_trig 1563 &pos_trig 1564 &pos_trig 1565 &pos_trig 1566 &pos_trig 1567 &pos_trig 1568 &pos_trig 1569 &pos_trig 1570 &pos_trig 1571 &pos_trig 1572 &pos_trig 1573 &pos_trig 1574 &pos_trig 1575 &pos_trig 1576 &pos_trig 1577 &pos_trig 1578 &pos_trig 1579 &pos_trig 1580 &pos_trig 1581 &pos_trig 1582 &pos_trig 1583 &pos_trig 1584 &pos_trig 1585 &pos_trig 1586 &pos_trig 1587 &pos_trig 1588 &pos_trig 1589 &pos_trig 1590 &pos_trig 1591 &pos_trig 1592 &pos_trig 1593 &pos_trig 1594 &pos_trig 1595 &pos_trig 1596 &pos_trig 1597 &pos_trig 1598 &pos_trig 1599 &pos_trig 1600 &pos_trig 1601 &pos_trig 1602 &pos_trig 1603 &pos_trig 1604 &pos_trig 1605 &pos_trig 1606 &pos_trig 1607 &pos_trig 1608 &pos_trig 1609 &pos_trig 1610 &pos_trig 1611 >;
-        };
     };
 };
